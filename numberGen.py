@@ -1,8 +1,8 @@
 import hashlib
 
-print("Hello, World!")
+print("Safaricom Numbers Sha-256 Equivalent")
 
-# Prefix list
+# Prefix list for safaricom numbers
 prefixes = ["2547", "2541"]
 
 # Step and range limits
@@ -34,4 +34,5 @@ for prefix in prefixes:
 with open("output.csv", "w", encoding="utf-8") as f:
     f.writelines(results)
 
-print("✅ Hash generation completed and saved to output.csv")
+print("Hash generation completed and saved to output.csv")
+
